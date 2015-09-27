@@ -57,7 +57,7 @@ h1, h2 {
     font-size: 90px;
 }
 /*screen size*/
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .lead {
         height: 500px;
     }
@@ -107,7 +107,7 @@ h1, h2 {
     box-shadow: 6px -7px 4px -2px rgba(0,0,0,0.46);
 }
 /*screen size*/
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .blurb-box {
         width: 700px;
         margin-right: -200px;
