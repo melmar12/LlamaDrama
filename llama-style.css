@@ -290,6 +290,9 @@ textarea:focus, input:focus {
         height: 1000px;
         font-size: 40px;
     }
+    input, textarea {
+        font-size: 20px;
+    }
     input, textarea, .button {
         width: 800px;
     }
