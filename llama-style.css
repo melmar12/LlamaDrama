@@ -10,7 +10,6 @@
     -webkit-flex-direction: row;
     justify-content: space-around;
     -webkit-justify-content: space-around;
-    --border: 1px solid red;
 }
 
 /* typography */
@@ -57,11 +56,13 @@ h1, h2 {
     text-shadow: 2px 2px #000;
     font-size: 90px;
 }
-@media (max-width: 1000px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .lead {
         background-size: 1250px;
     }
-
 }
 
 
@@ -129,6 +130,7 @@ h1, h2 {
 .facts p {
     font-weight: 100;
 }
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -265,7 +267,10 @@ textarea:focus, input:focus {
 }
 
 
-@media (max-width: 1000px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .footer {
         height: 350px;
     }
