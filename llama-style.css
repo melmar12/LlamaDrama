@@ -160,7 +160,7 @@ h1, h2 {
     font-weight: 100;
 }
 /*screen size*/
-@media (max-width: 800px) {
+@media (max-width: 908px) {
         .facts {
         background-color: white;
     }
