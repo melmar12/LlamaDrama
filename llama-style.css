@@ -41,7 +41,7 @@ h1, h2 {
     
     background-color: black;
     background-image: url(images/cool-llama.jpg);
-    background-size: 100px;
+    background-size: cover;
     background-attachment: fixed;
     
     display: flex;
@@ -58,6 +58,9 @@ h1, h2 {
     font-size: 90px;
 }
 @media (max-width: 1000px) {
+    .lead {
+        background-size: 1250px;
+    }
 
 }
 
