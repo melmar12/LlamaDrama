@@ -56,6 +56,16 @@ h1, h2 {
     text-shadow: 2px 2px #000;
     font-size: 90px;
 }
+/*screen size*/
+@media (max-width: 1000px) {
+    .lead {
+        height: 500px;
+    }
+    .lead h1 {
+        font-size: 70px;
+    }
+}
+/*mobile: iPhone6*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -82,7 +92,7 @@ h1, h2 {
     padding: 20px;
     z-index: 5;
     
-    font-size: 60px;
+    font-size: 35px;
     font-weight: 100;
     line-height: 1.7;
 }
@@ -90,12 +100,31 @@ h1, h2 {
     background-color:  rgba(0,0,0,.6);
 }
 .farm-life img {
-    height: 600px;
+    height: 400px;
     margin-left: -400px;
     -webkit-box-shadow: 6px -7px 4px -2px rgba(0,0,0,0.46);
     -moz-box-shadow: 6px -7px 4px -2px rgba(0,0,0,0.46);
     box-shadow: 6px -7px 4px -2px rgba(0,0,0,0.46);
 }
+/*screen size*/
+@media (max-width: 1000px) {
+    .blurb-box {
+        width: 700px;
+        margin-right: -200px;
+    }
+}
+/*mobile: iPhone6*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .blurb-box {
+          font-size: 60px;
+      }
+      .farm-life img {
+          height: 600px;
+      }
+  }
 
 
 /* ==== Why Llamas? ==== */
@@ -130,7 +159,38 @@ h1, h2 {
 .facts p {
     font-weight: 100;
 }
-
+/*screen size*/
+@media (max-width: 1000px) {
+        .facts {
+        background-color: white;
+    }
+    .facts h1 {
+        color: black;
+        border-bottom: 1px solid #eee;
+    }
+    .facts-flex-container {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    .fact-box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        display: -webkit-flex;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        padding: 40px 0px;
+        border-bottom: 1px solid #eee;
+    }
+    .mobile-helper {
+        width: 600px;
+        padding: 0px 40px;
+    }
+    .fact {
+        padding-bottom: 0px;
+    }   
+}
+/*mobile: iPhone6*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -221,7 +281,11 @@ textarea:focus, input:focus {
     padding: 30px;
     color: #9ac6f2;
 }
-@media (max-width: 1000px) {
+/*mobile: iPhone6*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .adopt-llama {
         height: 1000px;
         font-size: 40px;
@@ -265,8 +329,7 @@ textarea:focus, input:focus {
     padding-left: 10px;
     margin-top: 35px
 }
-
-
+/*mobile: iPhone6*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -287,4 +350,4 @@ textarea:focus, input:focus {
         padding-top: 100px;
         padding-left: 40px;
     }
-    }
+  }
