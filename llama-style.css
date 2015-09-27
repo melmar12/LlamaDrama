@@ -41,8 +41,7 @@ h1, h2 {
     
     background-color: black;
     background-image: url(images/cool-llama.jpg);
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-size: 100px;
     background-attachment: fixed;
     
     display: flex;
