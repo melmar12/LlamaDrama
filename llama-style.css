@@ -73,6 +73,9 @@ h1, h2 {
     .lead {
         background-size: 1250px;
     }
+    .lead h1 {
+        font-weight: 300;
+    }
 }
 
 
@@ -120,6 +123,7 @@ h1, h2 {
   and (-webkit-min-device-pixel-ratio: 2) {
       .blurb-box {
           font-size: 60px;
+          font-weight: 300;
       }
       .farm-life img {
           height: 600px;
@@ -177,6 +181,7 @@ h1, h2 {
         height: auto;
         display: flex;
         display: -webkit-flex;
+        font-weight: 300;
         line-height: 1.5;
         margin-bottom: 0px;
         padding: 40px 0px;
