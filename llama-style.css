@@ -12,6 +12,7 @@
     -webkit-justify-content: space-around;
 }
 
+
 /* typography */
 body {
     font-family: 'Lato', sans-serif;
@@ -32,7 +33,7 @@ h1, h2 {
 }
 
 
-/* ==== lead ==== */
+/* ======= lead ======= */
 .lead {
     height: 850px;
     width: 100%;
@@ -76,10 +77,13 @@ h1, h2 {
     .lead h1 {
         font-weight: 300;
     }
+    h2 {
+        font-weight: 300;
+    }
 }
 
 
-/* ==== Farm Life... ==== */
+/* ======= Farm Life ======= */
 .farm-life {
     background-color:  #222;
     padding-bottom: 100px;
@@ -131,7 +135,7 @@ h1, h2 {
   }
 
 
-/* ==== Why Llamas? ==== */
+/* ======= Why Llamas? ======= */
 .facts {
     height: auto;
     background-color: #ccc;
@@ -241,7 +245,7 @@ h1, h2 {
 }
 
 
-/* ==== Adopt Llama Form ==== */
+/* ======= Adopt Llama Form ======= */
 .adopt-llama {
     color: black;
     height: 600px;
@@ -310,11 +314,12 @@ textarea:focus, input:focus {
     .button {
         font-size: 80px;
         padding: 80px;
+        -webkit-appearance: none;
     }
 }
 
 
-/* ==== Footer ==== */
+/* ======= Footer ======= */
 .footer {
     height: 200px;
     background-color: #2d5888;
